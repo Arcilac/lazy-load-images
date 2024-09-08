@@ -6,7 +6,7 @@ function getFizzBuzz(number) {
 }
 
 function FizzBuzz() {
-  const fizzBuzzArray = Array.from({ length: 100 }, (_, i) => getFizzBuzz(i + 1))
+  const fizzBuzzArray = Array.from({ length: 100_000 }, (_, i) => getFizzBuzz(i + 1))
 
   return (
     <div className="fizzbuzz-container">
